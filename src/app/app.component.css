@@ -1,0 +1,48 @@
+.ubber-container {
+  height: 100vh;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  width: 600px;
+  height: 600px;
+  /* background-color: aqua; */
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.btn {
+  width: 300px;
+  height: 70px;
+  transition: all 150ms;
+  font-size: 1.4em;
+}
+.btn:hover {
+  transform: scale(1.02);
+}
+.btn:active {
+  transform: scale(1.01);
+}
+.hoverDis {
+  transform: scale(1) !important;
+}
+.counting-heading {
+  font-size: 3.2rem;
+  margin: 50px;
+}
+.example-button {
+  margin-top: 16px;
+}
+
+.example-tooltip-red {
+  background: #b71c1c;
+}

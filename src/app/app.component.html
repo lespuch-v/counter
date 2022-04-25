@@ -1,0 +1,19 @@
+<div class="ubber-container">
+  <div class="inner-container">
+    <h1 class="counting-heading" [style.color]="color" [style.fontSize]=" counter > 0 ? [fontSiz]+'em' : '3.2rem'">{{ counter }}</h1>
+    <button
+      [disabled]="isDisabled ? true : false"
+      (click)="getValueCountering()"
+      mat-raised-button
+      color="warn"
+      [class.hoverDis]="isDisabled"
+      class="btn"
+      mat-button
+      color="warn"
+      matTooltip="Test your luck!"
+      matTooltipClass="example-tooltip-red"
+    >
+      Celebrate or NOT
+    </button>
+  </div>
+</div>
